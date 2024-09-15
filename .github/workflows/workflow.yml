@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Node setup  
-      uses: actions/setuo-node@v4.0.3
+      uses: actions/setup-node@v4.0.3
       with:
         node-version: '18.x'
 
